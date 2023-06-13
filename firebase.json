@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/image-logo-merge-ang",
+    "site": "image-logo-generator",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
